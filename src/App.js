@@ -1,15 +1,19 @@
 import './App.css';
+import QrCode from "./components/QrCode";
 
 function App() {
-  return (
-    <div className="App">
-      <div id="qr-code">
-        <img src="images/image-qr-code.png" alt="QR code" />
-          <h1>Improve your front-end skills by building projects</h1>
-          <h2>Scan the QR code to visit Frontend Mentor and take your coding skils to the next level</h2>
-      </div>
-    </div>
-  );
+
+    const config = {
+        img: "images/image-qr-code.png",
+        title: "Improve your front-end skills by building projects",
+        description: "Scan the QR code to visit Frontend Mentor and take your coding skils to the next level",
+    }
+
+    return (
+        <div className="App">
+            <QrCode img={config.img} title={config.title} description={config.description}/>
+        </div>
+    );
 }
 
 export default App;

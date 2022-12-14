@@ -4,13 +4,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+### Design
+
+- Desktop: [here](https://github.com/mgrochalski/qr-code-component/blob/master/design/)
+
 ### Screenshot
 
 ![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
+- Solution URL: [here](https://github.com/mgrochalski/qr-code-component)
 - Live Site URL: [here](https://your-live-site-url.com)
 
 ### Built with
@@ -21,4 +25,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Frontend Mentor - [@mgrochalski](https://www.frontendmentor.io/profile/mgrochalski)
+- Github - [mgrochalski](https://github.com/mgrochalski)
 
