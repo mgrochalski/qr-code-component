@@ -1,11 +1,11 @@
 import './QrCode.scss';
 
-const QrCode = (props) => {
+const QrCode = ({img, title, description}) => {
     return (
         <div id="qr-code">
-            <img src={props.img} alt="QR code" />
-            <h1>{props.title}</h1>
-            <h2>{props.description}</h2>
+            <img src={img} alt="QR code" />
+            <h1>{title}</h1>
+            <h2>{description}</h2>
         </div>
     )
 }
