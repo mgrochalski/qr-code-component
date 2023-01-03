@@ -1,13 +1,13 @@
 @import '../../variables.scss';
 
-.qrCode {
+.card {
   background-color: $white;
   width: 320px;
   margin: 152px auto;
   border-radius: 20px;
 }
 
-.qrCode__img {
+.img {
   width: 288px;
   height: 288px;
   margin: 16px 16px 0 16px;
@@ -15,7 +15,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.qrCode__title {
+.title {
   color: $darkBlue;
   margin: 24px 16px 16px 16px;
   font-family: $font-stack;
@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.qrCode__description {
+.description {
   padding: 0 32px 32px 32px;
   margin: 0;
   color: $grayishBlue;
