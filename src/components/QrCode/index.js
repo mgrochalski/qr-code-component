@@ -1,13 +1,11 @@
-import './QrCode.scss';
+import styles from './QrCode.module.scss';
 
-const QrCode = (props) => {
-    return (
-        <div id="qr-code">
-            <img src={props.img} alt="QR code" />
-            <h1>{props.title}</h1>
-            <h2>{props.description}</h2>
+const QrCode = ({img, title, description}) => (
+        <div className={styles.card}>
+            <img src={img} className={styles.img} alt="QR code" />
+            <h1 className={styles.title}>{title}</h1>
+            <h2 className={styles.description}>{description}</h2>
         </div>
-    )
-}
+)
 
 export default QrCode;
